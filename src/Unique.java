@@ -31,12 +31,17 @@ public class Unique {
 
 				// compare the user input to the unique numbers in the array using a
 				// for statement. If number is unique , store new number
+				for (int i = 0; i < count; i++)
+					if (number == numbers[i]) {
+						containsNumber = true;
+					}
 
 				// add the user input to the array only if the number is not already in the
 				// array
 				if (!containsNumber) {
 					// write code to add the number to the array and increment unique items input
-
+					numbers[count] = number;
+					count++;
 				} else
 					System.out.printf("%d has already been entered\n", number);
 			} else
@@ -44,6 +49,10 @@ public class Unique {
 
 			// print the list of unique values
 			// write code to output the contents of the array
+			for (int i = 0; i < count; i++) {
+				System.out.printf("%d ", numbers[i]);
+			}
+			System.out.println();
 		}
 	}
 }
