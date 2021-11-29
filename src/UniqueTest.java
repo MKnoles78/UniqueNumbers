@@ -1,9 +1,10 @@
-
+//Mike Knole PA 3.9
+//UniqueTest.java
+//Test application for class Unique
 public class UniqueTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
-}
+		Unique application = new Unique();
+		application.getNumbers();
+	}// end main
+} // end class UniqueTest
