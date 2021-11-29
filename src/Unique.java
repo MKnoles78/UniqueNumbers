@@ -25,10 +25,8 @@ public class Unique {
 			if (10 <= number && number <= 100) {
 				// flags whether this number already exist
 				boolean containsNumber = false;
-
 				// increment number of entered numbers
 				entered++;
-
 				// compare the user input to the unique numbers in the array using a
 				// for statement. If number is unique , store new number
 				for (int i = 0; i < count; i++)
@@ -53,6 +51,6 @@ public class Unique {
 				System.out.printf("%d ", numbers[i]);
 			}
 			System.out.println();
-		}
-	}
-}
+		} // end while
+	} // end method getNumbers
+} // end class Unique
