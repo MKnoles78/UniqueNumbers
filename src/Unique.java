@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Unique {
 	// gets 5 unique numbers from the user
 	public void getNumbers() {
+		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
 
 		// Create an array of five elements
