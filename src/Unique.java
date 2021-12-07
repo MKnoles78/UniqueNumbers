@@ -27,7 +27,7 @@ public class Unique {
 				// flags whether this number already exist
 				boolean containsNumber = false;
 				// increment number of entered numbers
-				entered++;
+				// entered++;
 				// compare the user input to the unique numbers in the array using a
 				// for statement. If number is unique , store new number
 				for (int i = 0; i < count; i++)
