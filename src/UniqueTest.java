@@ -1,4 +1,4 @@
-//Mike Knole PA 3.9
+//Mike Knoles PA 3.9
 //UniqueTest.java
 //Test application for class Unique
 public class UniqueTest {
