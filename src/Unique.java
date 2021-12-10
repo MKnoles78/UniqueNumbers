@@ -12,7 +12,7 @@ public class Unique {
 		// Create an array of five elements
 		int numbers[] = new int[5]; // stores list of inputs from user in array
 
-		int count = 0; // number of uniques read
+		int count = 0; // number of unique read
 		int entered = 0; // number of entered numbers
 
 		while (entered < numbers.length) {
@@ -27,7 +27,7 @@ public class Unique {
 				// flags whether this number already exist
 				boolean containsNumber = false;
 				// increment number of entered numbers
-				// entered++;
+				entered++;
 				// compare the user input to the unique numbers in the array using a
 				// for statement. If number is unique , store new number
 				for (int i = 0; i < count; i++)
