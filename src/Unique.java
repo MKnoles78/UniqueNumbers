@@ -1,5 +1,5 @@
 
-//Mike Knoles PA 3.9
+//Author: Mike Knoles
 //Unique.java
 import java.util.Scanner;
 
